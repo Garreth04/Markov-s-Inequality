@@ -21,7 +21,7 @@ Population_number
 
 #data frame for the plot
 df=data.frame(Population_heights)
-#Forming my histogram and including red dotted line to show the height 165 cm
+#Forming my histogram and including red dotted line to show the height 160 cm
 ggplot(df,aes(x=Population_heights))+
   geom_histogram(color="black",fill="blue")+
   geom_vline(xintercept = 160,linetype="dashed",color="red")
